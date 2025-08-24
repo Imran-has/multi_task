@@ -262,7 +262,7 @@ hotel_assistant = Agent(
 # ----------------------------
 if __name__ == "__main__":
     # Simple interactive runner for local testing
-    runner = Runner(hotel_assistant)
+    runner = Runner.run(hotel_assistant)
 
     print("Type your messages. Try: 'Tell me about Hotel Sannata availability' or 'Add Hotel Blue Bay'\n")
     try:
